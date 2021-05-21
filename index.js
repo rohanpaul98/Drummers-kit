@@ -2,8 +2,8 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
   document.querySelectorAll(".drum")[i].addEventListener("click", HandleClick);
 }
 function HandleClick() {
-  var btnclick = this.innerHTML;
-  makeSound(btnclick);
+  var buttonClick = this.innerHTML;
+  makeSound(buttonClick);
 }
 
 document.addEventListener('keypress',function(event){
